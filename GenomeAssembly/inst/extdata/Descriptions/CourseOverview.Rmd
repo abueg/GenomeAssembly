@@ -1,14 +1,13 @@
 ## Course Overview
-<br>
 
 ### Course Integrity
 **This course is compiled automatically on _`r Sys.Date()`_ **
 <br>
-[<img src="https://github.com/RockefellerUniversity/RU_Course_template/workflows/R-CMD-check-bioc/badge.svg">](https://github.com/RockefellerUniversity/RU_Course_template/actions?query=workflow%3AR-CMD-check-bioc)
+[<img src="https://github.com/RockefellerUniversity/GenomeAssembly/workflows/compilation-check/badge.svg">](https://github.com/RockefellerUniversity/GenomeAssembly/actions?query=workflow%3compilation-check)
 
-**The course is tested and available on MacOS, Windows and Ubuntu Linux for R 4.0**
+**The course is tested and available on MacOS, Windows and Ubuntu Linux for `r R.Version()$version.string`**
 <br>
-[<img src="https://github.com/RockefellerUniversity/RU_Course_template/workflows/R-CMD-check/badge.svg">](https://github.com/RockefellerUniversity/RU_Course_template/actions?query=workflow%3AR-CMD-check)
+[<img src="https://github.com/RockefellerUniversity/GenomeAssembly/workflows/OS-check/badge.svg">](https://github.com/RockefellerUniversity/GenomeAssembly/actions?query=workflow%3AOS-check)
 
 <br>
 <br>
@@ -18,8 +17,8 @@
 
 ?? What is this course about??
 
-?? Break down of course structure. You can look here for guidance: https://rockefelleruniversity.github.io/Intro_To_R_1Day/?? 
+?? Break down of course structure. You can look here for guidance: https://rockefelleruniversity.github.io/GenomeAssembly/?? 
 
-Course material and exercises are available to view as rendered HTML at https://rockefelleruniversity.github.io/RU_Course_template/.
+Course material and exercises are available to view as rendered HTML at https://rockefelleruniversity.github.io/GenomeAssembly/.
 All material is available to download under GPL v2 license.
 
