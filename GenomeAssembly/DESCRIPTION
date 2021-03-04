@@ -1,7 +1,7 @@
-Package: RU Genome Assembly
+Package: GenomeAssembly
 Type: Package
 Title: RU Genome Assembly
-Version: 0.1.1
+Version: 0.1.2
 Author: Giulio Formenti and Olivier Fedrigo
 Maintainer: Giulio Formenti <gformenti@rockefeller.edu>
 Description: Principles and practicalities of assembling, evaluating and using a reference genome
