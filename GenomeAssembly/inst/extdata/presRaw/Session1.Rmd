@@ -112,7 +112,7 @@ To learn more: <a href="https://www.sciencedirect.com/science/article/pii/S20010
 ## 1953: The sequence of insulin
 
 <img src="imgs/insulin_a.png" width=500px />
-<img src="imgs/sanger.png" width=197px />
+<img src="imgs/Sanger.png" width=197px />
 
 _Refined partition chromatography:_
 
