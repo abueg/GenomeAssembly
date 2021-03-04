@@ -49,8 +49,8 @@ __In collaboration with the Vertebrate Genomes Laboratory__
 
 _March 22nd & 25th - Monday & Thursday_
 
-<img src="../imgs/VGL_logo.png" width=30%>
-<img src="../imgs/RU_logo.png" width=15%>
+<img src="imgs/VGL_logo.png" width=30%>
+<img src="imgs/RU_logo.png" width=15%>
 
 ---
 ## Materials
@@ -64,26 +64,26 @@ _March 22nd & 25th - Monday & Thursday_
 ---
 ## The Vertebrate Genomes Project
 
-<img src="../imgs/VGP_phases.png" width=35% />
-<img src="../imgs/VGP_map.png" width=55% />
+<img src="imgs/VGP_phases.png" width=35% />
+<img src="imgs/VGP_map.png" width=55% />
 
 <center>
 <a href="https://vertebrategenomesproject.org/">VGP website</a><br/>
-<img src="../imgs/VGP_logo.png" width=30% />
+<img src="imgs/VGP_logo.png" width=30% />
 </center>
 
 ---
 ## Many international endeavours
-<img src="../imgs/B10K_logo.png" width=30% />
-<img src="../imgs/dToL_logo.png" width=30% />
-<img src="../imgs/GIGA_logo.jpg" width=30% />
+<img src="imgs/B10K_logo.png" width=30% />
+<img src="imgs/dToL_logo.png" width=30% />
+<img src="imgs/GIGA_logo.jpg" width=30% />
 
-<img src="../imgs/EBP_logo.jpg" width=30% />
-<img src="../imgs/ERGA_logo.jpg" width=30% />
-<img src="../imgs/BAT1K_logo.jpg" width=30% />
+<img src="imgs/EBP_logo.jpg" width=30% />
+<img src="imgs/ERGA_logo.jpg" width=30% />
+<img src="imgs/BAT1K_logo.jpg" width=30% />
 
 <p style="text-align:center">
-<img src="../imgs/BIOGENOMA_logo.png" width=30% />
+<img src="imgs/BIOGENOMA_logo.png" width=30% />
 </p>
 
 ---
@@ -94,25 +94,25 @@ to our understanding of living matter»_
 
 Frederick Sanger, 1980
 
-<img src="../imgs/science.png" width=70% />
+<img src="imgs/science.png" width=70% />
 
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>A little bit of history</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>A little bit of history</b></div>
 
 ---
 ## 
 
-<img src="../imgs/gatc_history.png" />
+<img src="imgs/gatc_history.png" />
 
 To learn more: <a href="https://www.sciencedirect.com/science/article/pii/S2001037019303277">Giani et al., 2020</a>
 
 ---
 ## 1953: The sequence of insulin
 
-<img src="../imgs/insulin_a.png" width=500px />
-<img src="../imgs/sanger.png" width=197px />
+<img src="imgs/insulin_a.png" width=500px />
+<img src="imgs/sanger.png" width=197px />
 
 _Refined partition chromatography:_
 
@@ -123,8 +123,8 @@ To learn more: <a href="https://www.sciencedirect.com/science/article/pii/S20010
 ---
 ## 1953: The sequence of insulin
 
-<img src="../imgs/insulin_b.png" width=500px />
-<img src="../imgs/sanger.png" width=197px />
+<img src="imgs/insulin_b.png" width=500px />
+<img src="imgs/sanger.png" width=197px />
 
 _Refined partition chromatography:_
 
@@ -136,8 +136,8 @@ To learn more: <a href="https://www.sciencedirect.com/science/article/pii/S20010
 ## 1953: The sequence of insulin
 
 
-<img src="../imgs/insulin_c.png" width=500px />
-<img src="../imgs/sanger.png" width=197px />
+<img src="imgs/insulin_c.png" width=500px />
+<img src="imgs/sanger.png" width=197px />
 
 
 _Refined partition chromatography:_
@@ -153,53 +153,53 @@ Rodger Staden, invents of the first DNA sequencing ‘software’.
 
 In 1982, Sanger uses it to assemble the entire 48,502 bp of bacteriophage Lambda genome.
 
-<img src="../imgs/overlap.png" width=500px />
-<img src="../imgs/staden.png" width=197px />
+<img src="imgs/overlap.png" width=500px />
+<img src="imgs/staden.png" width=197px />
 
 To learn more: <a href="https://www.sciencedirect.com/science/article/pii/S2001037019303277">Giani et al., 2020</a>
 
 ---
 ## Whole Genome Sequencing
 
-<img src="../imgs/timeline_half.png" width=400px />
+<img src="imgs/timeline_half.png" width=400px />
 
 ---
 ## De novo genome assembly
 
 The process of determining the sequence of an organism without existing reference.
 
-<img src="../imgs/humanWGA.jpg" width=800px />
+<img src="imgs/humanWGA.jpg" width=800px />
 
 ---
 ## The HGP produced many tech advancements
 
-<img src="../imgs/Moore_law.png" width=600px />
+<img src="imgs/Moore_law.png" width=600px />
 
 ---
 ## Whole Genome Sequencing
 
-<img src="../imgs/timeline.png" width=800px />
+<img src="imgs/timeline.png" width=800px />
 
 ---
 ## Genbank
 
-<img src="../imgs/Genbank1.png" width=800px />
+<img src="imgs/Genbank1.png" width=800px />
 
 ---
 ## Genbank
 
-<img src="../imgs/Genbank2.png" width=800px />
+<img src="imgs/Genbank2.png" width=800px />
 
 ---
 ## NGS-based WGS
 <div style="text-align:center">
 <div style="float:left">
-<img src="../imgs/science_birds1.png" height=250px /> <br/>
+<img src="imgs/science_birds1.png" height=250px /> <br/>
 
-<img src="../imgs/science_birds2.png" height=250px />
+<img src="imgs/science_birds2.png" height=250px />
 </div>
 
-<img style="float:left" src="../imgs/bird_tree.png" height=500px />
+<img style="float:left" src="imgs/bird_tree.png" height=500px />
 
 <br style="clear:left" />
 </div>
@@ -207,18 +207,18 @@ The process of determining the sequence of an organism without existing referenc
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Technologies</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Technologies</b></div>
 
 ---
 ## Repeats are a problem
 
-<img src="../imgs/Genbank2.png" width=800px />
+<img src="imgs/Genbank2.png" width=800px />
 
 ---
 ## Third generation sequencing
 
 <div style="float:left; margin:10px">
-<img src="../imgs/NGS.png" width=300px /><br/>
+<img src="imgs/NGS.png" width=300px /><br/>
 <b>NGS</b><br/>
 - Bridge amplification<br/>
 - Short reads<br/>
@@ -226,7 +226,7 @@ The process of determining the sequence of an organism without existing referenc
 - High quality<br/>
 </div>
 <div style="float:left; margin:10px">
-<img src="../imgs/TGS.png" width=300px /><br/>
+<img src="imgs/TGS.png" width=300px /><br/>
 <b>Pacbio (TGS)</b><br/>
 - Single molecule<br/>
 - Long reads<br/>
@@ -241,39 +241,39 @@ The process of determining the sequence of an organism without existing referenc
 ---
 ## Third generation sequencing: Pacbio
 
-<img src="../imgs/pacbio1.png" width=450px />
-<img src="../imgs/pacbio2.jpg" width=200px />
+<img src="imgs/pacbio1.png" width=450px />
+<img src="imgs/pacbio2.jpg" width=200px />
 
 ---
 ## Third generation sequencing: Pacbio
 
-<img src="../imgs/pacbio3.png" width=800px />
+<img src="imgs/pacbio3.png" width=800px />
 
 ---
 ## Third generation sequencing: Pacbio
 
-<img src="../imgs/pacbio4.png" width=800px />
+<img src="imgs/pacbio4.png" width=800px />
 
 ---
 ## Long read matter
 
 High-quality error-free genome assemblies and annotations are necessary as current 1st and 2nd generation genome sequencing approaches generate numerous errors that cause a variety of problems in downstream analyses. <b>Parts of genes are missing, and some are incorrectly assembled, while others are completely missing from the assemblies despite pieces found in the raw sequence reads.</b> (Vertebrate Genomes Project)
 
-<img src="../imgs/finch.png" width=800px />
+<img src="imgs/finch.png" width=800px />
 
 <a href="https://academic.oup.com/gigascience/article/6/10/gix085/4096262">Korlach et al., 2017</a>
 
 ---
 ## Third generation sequencing: nanopore
 
-<img src="../imgs/nanopore2.png" width=340px />
-<img src="../imgs/nanopore3.png" width=380px />
+<img src="imgs/nanopore2.png" width=340px />
+<img src="imgs/nanopore3.png" width=380px />
 
 ---
 ## Linked reads
 
-<img src="../imgs/10x.png" width=600px />
-<img src="../imgs/10x_logo.jpg" width=100px />
+<img src="imgs/10x.png" width=600px />
+<img src="imgs/10x_logo.jpg" width=100px />
 
 * DNA & RNA (single-cell)
 * Formerly 10x Genomics, now <a href="https://www.universalsequencing.com/technology">Universal Sequencing (TELL-Seq)</a>
@@ -281,16 +281,16 @@ High-quality error-free genome assemblies and annotations are necessary as curre
 ---
 ## Pacbio Hifi
 
-<img src="../imgs/pacbio_logo.png" width=200px />
+<img src="imgs/pacbio_logo.png" width=200px />
 
-<img src="../imgs/ccs.png" width=100% />
+<img src="imgs/ccs.png" width=100% />
 
 ---
 ## The Telomere-to-Telomere Consortium (T2T)
 
 An open, community-based effort to generate the first complete assembly of a human genome.
 
-<img src="../imgs/logsdon.png" width=100% />
+<img src="imgs/logsdon.png" width=100% />
 
 <a href="https://www.biorxiv.org/content/10.1101/2020.09.08.285395v1">Logsdon et al., preprint</a>
 
@@ -298,9 +298,9 @@ An open, community-based effort to generate the first complete assembly of a hum
 ## The Telomere-to-Telomere Consortium (T2T)
 
 <div style="text-align:center">
-<img src="../imgs/miga1.png" width=75% />
+<img src="imgs/miga1.png" width=75% />
 
-<img src="../imgs/miga2.png" width=65% />
+<img src="imgs/miga2.png" width=65% />
 </div>
 <a href="https://www.nature.com/articles/s41586-020-2547-7">Miga et al., 2020</a>
 
@@ -311,74 +311,74 @@ Hifi reads are nearly perfect in homopolymer-compressed space.
 
 AATTCTACTCATAT__AAAAA__TCA__TTTTTT__CA &#8594; AATTCTACTCATAT__A__TCA__T__CA
 
-<img style="margin:10px" src="../imgs/NGS.png" width=45% />
-<img style="margin:10px" src="../imgs/TGS.png" width=45% />
+<img style="margin:10px" src="imgs/NGS.png" width=45% />
+<img style="margin:10px" src="imgs/TGS.png" width=45% />
 
 <a href="https://www.elsevier.es/es-revista-revista-mexicana-biodiversidad-91-articulo-the-study-biodiversity-in-era-S1870345314730076">Escalante et al., 2014</a>
 
 ---
 ## The Telomere-to-Telomere Consortium (T2T)
 
-<img src="../imgs/nurk.png" width=100% />
+<img src="imgs/nurk.png" width=100% />
 
 Nurk et al., in preparation
 
 ---
 ## From reads to contigs
 
-<img src="../imgs/reads2contigs.png" width=100% />
+<img src="imgs/reads2contigs.png" width=100% />
 
-<div style="text-align:center"><img src="../imgs/swallow.png" width=90% /></div>
+<div style="text-align:center"><img src="imgs/swallow.png" width=90% /></div>
 
 ---
 ## From tigs to scaffolds
 
-<img src="../imgs/tigs2scaffolds.png" width=100% />
+<img src="imgs/tigs2scaffolds.png" width=100% />
 
 ---
 ## From scaffolds to chromosomes
 
-<img src="../imgs/scaffolds2chr.png" width=100% />
+<img src="imgs/scaffolds2chr.png" width=100% />
 
 ---
 ## Scaffolding: Optical maps
 
-<img style="position:absolute; position: 0 0" src="../imgs/bionano1.png" width=20% />
+<img style="position:absolute; position: 0 0" src="imgs/bionano1.png" width=20% />
 <br/><br/><br/>
-<img src="../imgs/bionano2.jpg" width=100% />
+<img src="imgs/bionano2.jpg" width=100% />
 
 ---
 ## Scaffolding: Optical maps
 
-<img src="../imgs/bionano3.jpg" width=100% />
-<img src="../imgs/bionano4.png" width=100% />
+<img src="imgs/bionano3.jpg" width=100% />
+<img src="imgs/bionano4.png" width=100% />
 
 ---
 ## Scaffolding: Hic
 
 Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 
-<img src="../imgs/hic1.png" width=45% />
-<img src="../imgs/hic2.png" width=45% />
+<img src="imgs/hic1.png" width=45% />
+<img src="imgs/hic2.png" width=45% />
 
 ---
 ## High molecular DNA required
 
-<img src="../imgs/PFGE_FEMTO.png" width=100% />
+<img src="imgs/PFGE_FEMTO.png" width=100% />
 
 <a href="https://academic.oup.com/gigascience/article/8/1/giy142/5202456">Formenti et al., 2019</a>
 
 ---
 ## VGP pipeline
 
-<img src="../imgs/VGP_pipeline.png" width=100% />
+<img src="imgs/VGP_pipeline.png" width=100% />
 
 <a href="https://www.biorxiv.org/content/10.1101/2020.05.22.110833v1">Rhie et al., in press</a>
 
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
 
 ---
 ## Everything starts from an alignment
@@ -399,7 +399,7 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 <li>Done!</li>
 </ol>
 
-Unfortunately, there are: <img src="../imgs/brute_force.png" width=10% /> potential alignments between 2 sequences of length N
+Unfortunately, there are: <img src="imgs/brute_force.png" width=10% /> potential alignments between 2 sequences of length N
 
 That is, with sequence length = 100:
 
@@ -441,7 +441,7 @@ GCAT-GCU<br/>
 G-ATTACA<br/>
 </div>
 
-<img style="float:left" src="../imgs/NW_algorithm.png" width=70% />
+<img style="float:left" src="imgs/NW_algorithm.png" width=70% />
 
 <br style="clear:left" />
 
@@ -496,7 +496,7 @@ Alignment-free approaches have been used for:
 ## Euclidean distance
 
 <div style="text-align:center">
-<img src="../imgs/Euclidean_distance.png" width=70% />
+<img src="imgs/Euclidean_distance.png" width=70% />
 <br/>
 <a href="https://link.springer.com/article/10.1186/s13059-017-1319-7">Zielezinski et al. 2017</a>
 </div>
@@ -538,36 +538,36 @@ Alignment-free approaches have been used for:
 ---
 ## Assembling a genome today
 
-<img src="../imgs/OLC_DBG1.png" width=100% />
+<img src="imgs/OLC_DBG1.png" width=100% />
 
 ---
 ## Assembling a genome today
 
-<img src="../imgs/OLC_DBG2.png" width=100% />
+<img src="imgs/OLC_DBG2.png" width=100% />
 
 ---
 ## Canu
 
 <div style="text-align:center">
-<img src="../imgs/canu.png" width=50% />
+<img src="imgs/canu.png" width=50% />
 </div>
 
 ---
 ## Galaxy
 
-<img src="../imgs/galaxy1.png" width=100% />
+<img src="imgs/galaxy1.png" width=100% />
 
 ---
 ## Genome assembly with Galaxy Unicycler
 
 <div style="text-align:center">
-<img src="../imgs/galaxy2.png" width=80% />
+<img src="imgs/galaxy2.png" width=80% />
 </div>
 
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Evaluation</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Evaluation</b></div>
 
 ---
 ## Synopsis
@@ -587,8 +587,8 @@ Alignment-free approaches have been used for:
 
 Unrivalled software for assembly-free estimates is Genomescope (v2.0, 2020)
 
-<img src="../imgs/gs1.png" width=49% />
-<img src="../imgs/gs2.png" width=49% />
+<img src="imgs/gs1.png" width=49% />
+<img src="imgs/gs2.png" width=49% />
 
 ---
 ## What is a genome assembly?
@@ -610,81 +610,81 @@ When available, this is the first result being shown.
 
 Picking a random human gene, the Primary Assembly normally refers to the human genome assembly ‘GRCh38’ (Genome Reference Consortium human build n. 38), the latest release of the long list of high-quality assemblies for the human genome generated since 2001.
 
-<img src="../imgs/assembly1.png" width=100% />
+<img src="imgs/assembly1.png" width=100% />
 
 ---
 ## The primary assembly
 
-<img src="../imgs/assembly2.png" width=100% />
+<img src="imgs/assembly2.png" width=100% />
 
 ---
 ## 2. Contiguity
 
-<img src="../imgs/assembly3.png" width=100% />
+<img src="imgs/assembly3.png" width=100% />
 
 ---
 ## 2. Quality (QV)
 
 <div style="text-align:center">
-<img src="../imgs/qv1.png" width=60% />
+<img src="imgs/qv1.png" width=60% />
 
-<img src="../imgs/qv2.png" width=60% />
+<img src="imgs/qv2.png" width=60% />
 </div>
 
 ---
 ## 3. BUSCO scores
 
 <div style="text-align:center">
-<img src="../imgs/busco.png" width=80% />
+<img src="imgs/busco.png" width=80% />
 </div>
 
 ---
 ## 4. Structural accuracy
 
 <div style="text-align:center">
-<img src="../imgs/hic2.png" width=70% />
+<img src="imgs/hic2.png" width=70% />
 </div>
 
 ---
 ## 5. Kmer multiplicity
 
 <div style="text-align:center">
-<img src="../imgs/kmer_multiplicity1.png" width=70% />
+<img src="imgs/kmer_multiplicity1.png" width=70% />
 </div>
 
 ---
 ## 5. Kmer multiplicity
 
 <div style="text-align:center">
-<img src="../imgs/kmer_multiplicity2.png" width=70% />
+<img src="imgs/kmer_multiplicity2.png" width=70% />
 </div>
 
 ---
 ## 6. Switch error rate
 
 <div style="text-align:center">
-<img src="../imgs/switch1.png" width=70% />
+<img src="imgs/switch1.png" width=70% />
 
-<img src="../imgs/switch2.png" width=70% />
+<img src="imgs/switch2.png" width=70% />
 </div>
 
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Applications</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Applications</b></div>
 
 ---
 ## Applications
 
 <div style="text-align:center">
-<img src="../imgs/applications_long_reads.png" width=100% />
+<img src="imgs/applications_long_reads.png" width=100% />
 </div>
 
 ---
 ## Contiguity matters
 
 <div style="text-align:center">
-<img src="../imgs/contiguity.png" width=80% />
+<img src="imgs/contiguity.png" width=80% />
 </div>
 
 ---
@@ -693,7 +693,7 @@ Picking a random human gene, the Primary Assembly normally refers to the human g
 
 Differences between two humans:
 
-<img src="../imgs/human_SVs.png" width=100% />
+<img src="imgs/human_SVs.png" width=100% />
 
 Human-chimp differences (120 Mb overall):
 
@@ -706,19 +706,19 @@ Human-chimp differences (120 Mb overall):
 ---
 ## Whole genome alignments
 
-<img src="../imgs/chicken_barn_swallow.png" width=100% />
+<img src="imgs/chicken_barn_swallow.png" width=100% />
 
 ---
 ## Whole genome alignments
 
 <div style="text-align:center">
-<img src="../imgs/chicken_zebra_finch.png" width=50% />
+<img src="imgs/chicken_zebra_finch.png" width=50% />
 </div>
 
 ---
 ## Supergenes in the ruff
 
-<img src="../imgs/ruff.png" width=100% />
+<img src="imgs/ruff.png" width=100% />
 
 <div style="text-align:center">
 <a href="https://www.nature.com/articles/ng.3443">Küpper et al., 2015</a>
