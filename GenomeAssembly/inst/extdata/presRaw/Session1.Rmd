@@ -5,6 +5,8 @@ author: "Rockefeller University, The Vertebrate Genome Lab"
 date: "http://rockefelleruniversity.github.io/RU_course_template/"
 output: 
   xaringan::moon_reader:
+    css: ["default", "metropolisCustom.css", "metropolis-fontsCustom.css"]
+    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
