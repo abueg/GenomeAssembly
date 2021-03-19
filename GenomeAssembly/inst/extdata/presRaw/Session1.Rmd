@@ -377,14 +377,14 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 ## Applications
 
 <div style="text-align:center">
-<img src="/imgs/applications_long_reads.png" width=100% />
+<img src="imgsapplications_long_reads.png" width=100% />
 </div>
 
 ---
 ## Contiguity matters
 
 <div style="text-align:center">
-<img src="/imgs/contiguity.png" width=80% />
+<img src="imgscontiguity.png" width=80% />
 </div>
 
 ---
@@ -393,7 +393,7 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 
 Differences between two humans:
 
-<img src="/imgs/human_SVs.png" width=100% />
+<img src="imgshuman_SVs.png" width=100% />
 
 Human-chimp differences (120 Mb overall):
 
@@ -406,19 +406,19 @@ Human-chimp differences (120 Mb overall):
 ---
 ## Whole genome alignments
 
-<img src="/imgs/chicken_barn_swallow.png" width=100% />
+<img src="imgschicken_barn_swallow.png" width=100% />
 
 ---
 ## Whole genome alignments
 
 <div style="text-align:center">
-<img src="/imgs/chicken_zebra_finch.png" width=50% />
+<img src="imgschicken_zebra_finch.png" width=50% />
 </div>
 
 ---
 ## Supergenes in the ruff
 
-<img src="/imgs/ruff.png" width=100% />
+<img src="imgsruff.png" width=100% />
 
 <div style="text-align:center">
 <a href="https://www.nature.com/articles/ng.3443">Küpper et al., 2015</a>
@@ -429,7 +429,7 @@ Human-chimp differences (120 Mb overall):
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('/imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
+<div style="font-size:30px;background-image: url('imgsbg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
 
 ---
 ## Everything starts from an alignment
