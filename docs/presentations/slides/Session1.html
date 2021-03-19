@@ -20,7 +20,7 @@ class: center, middle, inverse, title-slide
 <hr color='#EB811B' size=1px width=796px>
 </html>
 ### Rockefeller University, The Vertebrate Genome Lab
-### <a href="http://rockefelleruniversity.github.io/RU_course_template/" class="uri">http://rockefelleruniversity.github.io/RU_course_template/</a>
+### <a href="http://rockefelleruniversity.github.io/GenomeAssembly/" class="uri">http://rockefelleruniversity.github.io/GenomeAssembly/</a>
 
 ---
 
@@ -53,15 +53,6 @@ _March 22nd &amp; 25th - Monday &amp; Thursday_
 
 &lt;img src="imgs/VGL_logo.png" width=30%&gt;
 &lt;img src="imgs/RU_logo.png" width=15%&gt;
-
----
-## Materials
-
-- [Introduction to Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
-- [Introduction to Snakemake](https://snakemake.readthedocs.io/en/stable/)
-
-- [GEP - Genome evaluation pipeline](https://git.imp.fu-berlin.de/cmazzoni/genome_evaluation_snakemake)
-- Path on RU HPC to test data: /fakepath/to/data
 
 ---
 ## The Vertebrate Genomes Project
@@ -383,6 +374,64 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 &lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Principles and practicalities&lt;/b&gt;&lt;/div&gt;
 
 ---
+## Applications
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/applications_long_reads.png" width=100% /&gt;
+&lt;/div&gt;
+
+---
+## Contiguity matters
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/contiguity.png" width=80% /&gt;
+&lt;/div&gt;
+
+---
+## Contiguity matters
+
+
+Differences between two humans:
+
+&lt;img src="imgs/human_SVs.png" width=100% /&gt;
+
+Human-chimp differences (120 Mb overall):
+
+3x10^7 substitutions → 30 Mb (25%)
+
+5x10^6 indels (&lt;80 bp) → 22 Mb (18%)
+
+7x10^4 SVs (&gt;80 bp) → 68 Mb (57%)
+
+---
+## Whole genome alignments
+
+&lt;img src="imgs/chicken_barn_swallow.png" width=100% /&gt;
+
+---
+## Whole genome alignments
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/chicken_zebra_finch.png" width=50% /&gt;
+&lt;/div&gt;
+
+---
+## Supergenes in the ruff
+
+&lt;img src="imgs/ruff.png" width=100% /&gt;
+
+&lt;div style="text-align:center"&gt;
+&lt;a href="https://www.nature.com/articles/ng.3443"&gt;Küpper et al., 2015&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href="https://www.scilifelab.se/news/a-supergene-underlies-genetic-differences-in-testosteron-levels-and-sexual-behaviour-in-male-ruff/"&gt;Watch this video!&lt;/a&gt;
+&lt;/div&gt;
+
+---
+## 
+
+&lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Principles and practicalities&lt;/b&gt;&lt;/div&gt;
+
+---
 ## Everything starts from an alignment
 
 - Brute-force
@@ -542,10 +591,14 @@ Alignment-free approaches have been used for:
 
 &lt;img src="imgs/OLC_DBG1.png" width=100% /&gt;
 
+&lt;a href="https://academic.oup.com/bfg/article/11/1/25/191455"&gt;Li et al. 2012&lt;/a&gt;
+
 ---
 ## Assembling a genome today
 
 &lt;img src="imgs/OLC_DBG2.png" width=100% /&gt;
+
+&lt;a href="https://academic.oup.com/bfg/article/11/1/25/191455"&gt;Li et al. 2012&lt;/a&gt;
 
 ---
 ## Canu
@@ -553,6 +606,8 @@ Alignment-free approaches have been used for:
 &lt;div style="text-align:center"&gt;
 &lt;img src="imgs/canu.png" width=50% /&gt;
 &lt;/div&gt;
+
+&lt;a href="https://genome.cshlp.org/content/early/2017/03/15/gr.215087.116"&gt;Koren et al. 2017&lt;/a&gt;
 
 ---
 ## Galaxy
@@ -566,167 +621,12 @@ Alignment-free approaches have been used for:
 &lt;img src="imgs/galaxy2.png" width=80% /&gt;
 &lt;/div&gt;
 
----
-## 
-
-&lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Evaluation&lt;/b&gt;&lt;/div&gt;
 
 ---
-## Synopsis
+##Exercises 
 
-&lt;ol&gt;
-&lt;li&gt;Estimation of genome parameters (Genomescope)&lt;/li&gt;
-&lt;li&gt;General assembly metrics (contiguity, quality)&lt;/li&gt;
-&lt;li&gt;Assembly completeness (BUSCO)&lt;/li&gt;
-&lt;li&gt;Structural accuracy&lt;/li&gt;
-&lt;li&gt;Kmer multiplicity (false duplications, missing kmers)&lt;/li&gt;
-&lt;li&gt;Switch rates&lt;/li&gt;
-&lt;li&gt;WGA (D-Genies, Mummer, Cactus)&lt;/li&gt;
-&lt;ol&gt;
-
----
-## 1. Genome parameters
-
-Unrivalled software for assembly-free estimates is Genomescope (v2.0, 2020)
-
-&lt;img src="imgs/gs1.png" width=49% /&gt;
-&lt;img src="imgs/gs2.png" width=49% /&gt;
-
----
-## What is a genome assembly?
-
-A genome assembly is the entire genomic sequence derived through a _de novo_ (i.e. reference-free) assembly process of the raw sequencing reads and released by the curators of the genome in the database upon publication.
-
-- Until now a single ‘reference’ individual or pooled individuals in a single reference.
-- Haploid.
-- Sometimes alternative alleles reported as variants.
-- Haplotigs were often completely shuffled as it is unfeasible to determine long blocks of haplotype with NGS.
-- Sometimes more than one assembly is present.
-
----
-## The primary assembly
-
-The Primary Assembly constitutes what Genbank curators consider the most up-to-date source for the genomic sequence for this reference.
-
-When available, this is the first result being shown.
-
-Picking a random human gene, the Primary Assembly normally refers to the human genome assembly ‘GRCh38’ (Genome Reference Consortium human build n. 38), the latest release of the long list of high-quality assemblies for the human genome generated since 2001.
-
-&lt;img src="imgs/assembly1.png" width=100% /&gt;
-
----
-## The primary assembly
-
-&lt;img src="imgs/assembly2.png" width=100% /&gt;
-
----
-## 2. Contiguity
-
-&lt;img src="imgs/assembly3.png" width=100% /&gt;
-
----
-## 2. Quality (QV)
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/qv1.png" width=60% /&gt;
-
-&lt;img src="imgs/qv2.png" width=60% /&gt;
-&lt;/div&gt;
-
----
-## 3. BUSCO scores
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/busco.png" width=80% /&gt;
-&lt;/div&gt;
-
----
-## 4. Structural accuracy
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/hic2.png" width=70% /&gt;
-&lt;/div&gt;
-
----
-## 5. Kmer multiplicity
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/kmer_multiplicity1.png" width=70% /&gt;
-&lt;/div&gt;
-
----
-## 5. Kmer multiplicity
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/kmer_multiplicity2.png" width=70% /&gt;
-&lt;/div&gt;
-
----
-## 6. Switch error rate
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/switch1.png" width=70% /&gt;
-
-&lt;img src="imgs/switch2.png" width=70% /&gt;
-&lt;/div&gt;
-
----
-## 
-
-&lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Applications&lt;/b&gt;&lt;/div&gt;
-
----
-## Applications
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/applications_long_reads.png" width=100% /&gt;
-&lt;/div&gt;
-
----
-## Contiguity matters
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/contiguity.png" width=80% /&gt;
-&lt;/div&gt;
-
----
-## Contiguity matters
-
-
-Differences between two humans:
-
-&lt;img src="imgs/human_SVs.png" width=100% /&gt;
-
-Human-chimp differences (120 Mb overall):
-
-3x10^7 substitutions → 30 Mb (25%)
-
-5x10^6 indels (&lt;80 bp) → 22 Mb (18%)
-
-7x10^4 SVs (&gt;80 bp) → 68 Mb (57%)
-
----
-## Whole genome alignments
-
-&lt;img src="imgs/chicken_barn_swallow.png" width=100% /&gt;
-
----
-## Whole genome alignments
-
-&lt;div style="text-align:center"&gt;
-&lt;img src="imgs/chicken_zebra_finch.png" width=50% /&gt;
-&lt;/div&gt;
-
----
-## Supergenes in the ruff
-
-&lt;img src="imgs/ruff.png" width=100% /&gt;
-
-&lt;div style="text-align:center"&gt;
-&lt;a href="https://www.nature.com/articles/ng.3443"&gt;Küpper et al., 2015&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;a href="https://www.scilifelab.se/news/a-supergene-underlies-genetic-differences-in-testosteron-levels-and-sexual-behaviour-in-male-ruff/"&gt;Watch this video!&lt;/a&gt;
-&lt;/div&gt;
+ 
+Time for exercises! [Link here](../../exercises/exercises/Galaxy_ex_exercise.html)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
