@@ -342,6 +342,20 @@ div.tocify {
         </li>
       </ul>
     </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Session2</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="presentations/slides/Session2.html">Slide</a>
+        </li>
+        <li>
+          <a href="presentations/singlepage/Session2.html">Single Page</a>
+        </li>
+        <li>
+          <a href="presentations/r_code/Session2.R">Code</a>
+        </li>
+      </ul>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -352,13 +366,13 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li class="dropdown-submenu">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">MyExercise1</a>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Galaxy_ex</a>
       <ul class="dropdown-menu" role="menu">
         <li>
-          <a href="exercises/exercises/MyExercise1_exercise.html">Exercise</a>
+          <a href="exercises/exercises/Galaxy_ex_exercise.html">Exercise</a>
         </li>
         <li>
-          <a href="exercises/answers/MyExercise1_answers.html">Solution</a>
+          <a href="exercises/answers/Galaxy_ex_answers.html">Solution</a>
         </li>
       </ul>
     </li>
@@ -397,15 +411,14 @@ div.tocify {
 <h2>Course Overview</h2>
 <div id="course-integrity" class="section level3">
 <h3>Course Integrity</h3>
-<p><strong>This course is compiled automatically on <em>2021-03-05</em> </strong> <br> <a href="https://github.com/RockefellerUniversity/GenomeAssembly/actions?query=workflow%3compilation-check"><img src="https://github.com/RockefellerUniversity/GenomeAssembly/workflows/compilation-check/badge.svg"></a></p>
+<p><strong>This course is compiled automatically on <em>2021-03-19</em> </strong> <br> <a href="https://github.com/RockefellerUniversity/GenomeAssembly/actions?query=workflow%3compilation-check"><img src="https://github.com/RockefellerUniversity/GenomeAssembly/workflows/compilation-check/badge.svg"></a></p>
 <p><strong>The course is tested and available on MacOS, Windows and Ubuntu Linux for R version 4.0.3 (2020-10-10)</strong> <br> <a href="https://github.com/RockefellerUniversity/GenomeAssembly/actions?query=workflow%3AOS-check"><img src="https://github.com/RockefellerUniversity/GenomeAssembly/workflows/OS-check/badge.svg"></a></p>
 <p><br> <br></p>
 </div>
 <div id="overview" class="section level3">
 <h3>Overview</h3>
-<p>?? This Section is used to build the course website ??</p>
-<p>?? What is this course about??</p>
-<p>?? Break down of course structure. You can look here for guidance: <a href="https://rockefelleruniversity.github.io/GenomeAssembly/" class="uri">https://rockefelleruniversity.github.io/GenomeAssembly/</a>??</p>
+<p>This is a 6-hour course on Genome Sequencing and Assembly held at the Rockefeller University in March 2021.</p>
+<p>The course consists of 2 sessions. These sessions will walk you through the core principles of Genome Assembly. Practical exercises will be performed using the web interface Galaxy.</p>
 <p>Course material and exercises are available to view as rendered HTML at <a href="https://rockefelleruniversity.github.io/GenomeAssembly/" class="uri">https://rockefelleruniversity.github.io/GenomeAssembly/</a>. All material is available to download under GPL v2 license.</p>
 <p><br><br></p>
 </div>
@@ -415,6 +428,12 @@ div.tocify {
 <p><br></p>
 <div id="system-requirements" class="section level4">
 <h4><strong>System Requirements</strong></h4>
+</div>
+<div id="set-up-galaxy" class="section level4">
+<h4>Set Up Galaxy</h4>
+<p>Galaxy is a free, public, internet accessible data analysis resource. It allows access to various bioinformatics tools and workflows through a web browser.</p>
+<p>Please create your <a href="https://usegalaxy.eu/">free Galaxy account</a> before the course begins. Ensure you use the EU mirror (which is found by following the link), as it is more stable. You can find extensive documentation on Galaxy <a href="https://usegalaxy.eu/training-material/">here</a>.</p>
+<p><br></p>
 </div>
 <div id="install-r" class="section level4">
 <h4>Install R</h4>
@@ -429,12 +448,11 @@ div.tocify {
 </ul>
 <p><br></p>
 </div>
-<div id="install-rstudio" class="section level4">
-<h4>Install RStudio</h4>
-<p>RStudio can be installed from the RStudio website.</p>
-<p><a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a></p>
-<p>RStudio can be downloaded for all platforms at the link below</p>
-<p><a href="https://rstudio.com/products/rstudio/download/" class="uri">https://rstudio.com/products/rstudio/download/</a></p>
+<div id="install-slack" class="section level4">
+<h4>Install Slack</h4>
+<p>We will be using a custom Slack channel to provide support as you assemble genomes with Galaxy.</p>
+<p>You can use Slack through a web browser or you can install the Desktop app. Go to the <a href="https://slack.com/">Slack website</a> to set up an account.</p>
+<p>Once you have an account join our Slack channel <a href="https://join.slack.com/t/rugenomeassembly/shared_invite/zt-nnl52qet-eWL1JKZM~yjUN9W6hUQmfQ">here</a>.</p>
 <p><br></p>
 </div>
 <div id="install-required-packages" class="section level4">
@@ -467,14 +485,9 @@ BiocManager::install(&#39;yaml&#39;)</code></pre>
 <div id="the-presentations" class="section level2">
 <h2>The Presentations</h2>
 <p><br></p>
-<div id="my-course-name-session-1" class="section level4">
-<h4><strong>?? My course name?? , Session 1</strong></h4>
-<p>??What am I focusing on in this section. Bullet point lists are good??</p>
-<ul>
-<li>Course content</li>
-<li>Building courses</li>
-<li>Making it look nice</li>
-</ul>
+<div id="genome-assembly-session-1" class="section level4">
+<h4><strong>Genome Assembly, Session 1</strong></h4>
+<p>In this session we will overview the principles of Genome Assembly.</p>
 <iframe src="presentations/slides/Session1.html" width="100%" height="400" title="Session1">
 </iframe>
 <div id="links-to-presentations" class="section level5">
@@ -482,6 +495,19 @@ BiocManager::install(&#39;yaml&#39;)</code></pre>
 <p>The html slide presentation can be found at this link <a href="presentations/slides/Session1.html"><strong>Slide</strong></a></p>
 <p>The single page html presentation can be found at this link <a href="presentations/singlepage/Session1.html"><strong>Single Page</strong></a></p>
 <p>The code use in the presentations can be found at <a href="presentations/r_code/Session1.R"><strong>R code</strong></a></p>
+<p><br></p>
+</div>
+</div>
+<div id="genome-assembly-session-2" class="section level4">
+<h4><strong>Genome Assembly, Session 2</strong></h4>
+<p>In this session we will review the practical use of Galaxy for Genome Assembly detailed in the exercise.</p>
+<iframe src="presentations/slides/Session2.html" width="100%" height="400" title="Session2">
+</iframe>
+<div id="links-to-presentations-1" class="section level5">
+<h5><em>Links to presentations:</em></h5>
+<p>The html slide presentation can be found at this link <a href="presentations/slides/Session2.html"><strong>Slide</strong></a></p>
+<p>The single page html presentation can be found at this link <a href="presentations/singlepage/Session2.html"><strong>Single Page</strong></a></p>
+<p>The code use in the presentations can be found at <a href="presentations/r_code/Session2.R"><strong>R code</strong></a></p>
 <p><br><br></p>
 </div>
 </div>

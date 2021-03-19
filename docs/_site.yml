@@ -14,14 +14,22 @@ navbar:
         href: presentations/singlepage/Session1.html
       - text: Code
         href: presentations/r_code/Session1.R
+    - text: Session2
+      menu:
+      - text: Slide
+        href: presentations/slides/Session2.html
+      - text: Single Page
+        href: presentations/singlepage/Session2.html
+      - text: Code
+        href: presentations/r_code/Session2.R
   - text: Exercises
     menu:
-    - text: MyExercise1
+    - text: Galaxy_ex
       menu:
       - text: Exercise
-        href: exercises/exercises/MyExercise1_exercise.html
+        href: exercises/exercises/Galaxy_ex_exercise.html
       - text: Solution
-        href: exercises/answers/MyExercise1_answers.html
+        href: exercises/answers/Galaxy_ex_answers.html
   right:
   - text: Getting help!
     href: https://github.com//RockefellerUniversity/GenomeAssembly/issues

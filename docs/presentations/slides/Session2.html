@@ -3,7 +3,7 @@
   <head>
     <title>Session2.utf8</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Rockefeller University, Bioinformatics Resource Centre" />
+    <meta name="author" content="Rockefeller University, The Vertebrate Genome Lab" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link rel="stylesheet" href="metropolisCustom.css" type="text/css" />
     <link rel="stylesheet" href="metropolis-fontsCustom.css" type="text/css" />
@@ -12,14 +12,14 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Introduction to R, Session 2
+# RU Genome Assembly, Session 2
 <html>
 <div style="float:left">
 
 </div>
 <hr color='#EB811B' size=1px width=796px>
 </html>
-### Rockefeller University, Bioinformatics Resource Centre
+### Rockefeller University, The Vertebrate Genome Lab
 ### <a href="http://rockefelleruniversity.github.io/RU_course_template/" class="uri">http://rockefelleruniversity.github.io/RU_course_template/</a>
 
 ---
@@ -27,35 +27,116 @@ class: center, middle, inverse, title-slide
 
 
 
-
-
-##  Recap
-
-?? can add a recap to link to keypoints in first session??
-Session 1 covered introduction to R data types and import/export of data.
-
-- [Background to R](https://rockefelleruniversity.github.io/Intro_To_R_1Day/r_course/presentations/singlepage/introToR_Session1.html#background-to-r)
-- [Data types in R](https://rockefelleruniversity.github.io/Intro_To_R_1Day/r_course/presentations/singlepage/introToR_Session1.html#data_types_in_r)
-- [Reading and writing in R](https://rockefelleruniversity.github.io/Intro_To_R_1Day/r_course/presentations/singlepage/introToR_Session1.html#reading-and-writing-data-in-r)
-
+&lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Evaluation&lt;/b&gt;&lt;/div&gt;
 
 ---
-## Same stuff
-??More content for second session??
+## Synopsis
+
+&lt;ol&gt;
+&lt;li&gt;Estimation of genome parameters (Genomescope)&lt;/li&gt;
+&lt;li&gt;General assembly metrics (contiguity, quality)&lt;/li&gt;
+&lt;li&gt;Assembly completeness (BUSCO)&lt;/li&gt;
+&lt;li&gt;Structural accuracy&lt;/li&gt;
+&lt;li&gt;Kmer multiplicity (false duplications, missing kmers)&lt;/li&gt;
+&lt;li&gt;Switch rates&lt;/li&gt;
+&lt;li&gt;WGA (D-Genies, Mummer, Cactus)&lt;/li&gt;
+&lt;ol&gt;
 
 ---
-## Time for an exercise!
+## 1. Genome parameters
 
+Unrivalled software for assembly-free estimates is Genomescope (v2.0, 2020)
 
-Exercise on functions can be found [here](../..//exercises/exercises/MyExercise3_exercise.html)
+&lt;img src="imgs/gs1.png" width=49% /&gt;
+&lt;img src="imgs/gs2.png" width=49% /&gt;
 
 ---
-## Answers to exercise.
+## What is a genome assembly?
 
+A genome assembly is the entire genomic sequence derived through a _de novo_ (i.e. reference-free) assembly process of the raw sequencing reads and released by the curators of the genome in the database upon publication.
 
-Answers can be found here  [here](../..//exercises/answers/MyExercise3_answers.html)
+- Until now a single ‘reference’ individual or pooled individuals in a single reference.
+- Haploid.
+- Sometimes alternative alleles reported as variants.
+- Haplotigs were often completely shuffled as it is unfeasible to determine long blocks of haplotype with NGS.
+- Sometimes more than one assembly is present.
 
-Rcode for answers can be found here  [here](../..//exercises/answers//answers/MyExercise3_Answers.R)
+---
+## The primary assembly
+
+The Primary Assembly constitutes what Genbank curators consider the most up-to-date source for the genomic sequence for this reference.
+
+When available, this is the first result being shown.
+
+Picking a random human gene, the Primary Assembly normally refers to the human genome assembly ‘GRCh38’ (Genome Reference Consortium human build n. 38), the latest release of the long list of high-quality assemblies for the human genome generated since 2001.
+
+&lt;img src="imgs/assembly1.png" width=100% /&gt;
+
+---
+## The primary assembly
+
+&lt;img src="imgs/assembly2.png" width=100% /&gt;
+
+---
+## 2. Contiguity
+
+&lt;img src="imgs/assembly3.png" width=100% /&gt;
+
+---
+## 2. Contiguity
+
+&lt;img src="imgs/assembly4.jpg" width=100% /&gt;
+
+---
+## 2. Quality (QV)
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/qv1.png" width=60% /&gt;
+
+&lt;img src="imgs/qv2.png" width=60% /&gt;
+&lt;/div&gt;
+
+---
+## 3. BUSCO scores
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/busco.png" width=80% /&gt;
+&lt;/div&gt;
+
+---
+## 4. Structural accuracy
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/hic2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 5. Kmer multiplicity
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/kmer_multiplicity1.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 5. Kmer multiplicity
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/kmer_multiplicity2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 6. Switch error rate
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/switch1.png" width=70% /&gt;
+
+&lt;img src="imgs/switch2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## Many tools, one pipeline
+
+&lt;img src="imgs/GEP.png" width=100% /&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

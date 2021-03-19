@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Session2.utf8</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rockefeller University, The Vertebrate Genome Lab" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="metropolisCustom.css" type="text/css" />
+    <link rel="stylesheet" href="metropolis-fontsCustom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# RU Genome Assembly, Session 2
+<html>
+<div style="float:left">
+
+</div>
+<hr color='#EB811B' size=1px width=796px>
+</html>
+### Rockefeller University, The Vertebrate Genome Lab
+### <a href="http://rockefelleruniversity.github.io/RU_course_template/" class="uri">http://rockefelleruniversity.github.io/RU_course_template/</a>
+
+---
+
+
+
+
+&lt;div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%&gt;&lt;b&gt;Genome assembly:&lt;br/&gt;Evaluation&lt;/b&gt;&lt;/div&gt;
+
+---
+## Synopsis
+
+&lt;ol&gt;
+&lt;li&gt;Estimation of genome parameters (Genomescope)&lt;/li&gt;
+&lt;li&gt;General assembly metrics (contiguity, quality)&lt;/li&gt;
+&lt;li&gt;Assembly completeness (BUSCO)&lt;/li&gt;
+&lt;li&gt;Structural accuracy&lt;/li&gt;
+&lt;li&gt;Kmer multiplicity (false duplications, missing kmers)&lt;/li&gt;
+&lt;li&gt;Switch rates&lt;/li&gt;
+&lt;li&gt;WGA (D-Genies, Mummer, Cactus)&lt;/li&gt;
+&lt;ol&gt;
+
+---
+## 1. Genome parameters
+
+Unrivalled software for assembly-free estimates is Genomescope (v2.0, 2020)
+
+&lt;img src="imgs/gs1.png" width=49% /&gt;
+&lt;img src="imgs/gs2.png" width=49% /&gt;
+
+---
+## What is a genome assembly?
+
+A genome assembly is the entire genomic sequence derived through a _de novo_ (i.e. reference-free) assembly process of the raw sequencing reads and released by the curators of the genome in the database upon publication.
+
+- Until now a single ‘reference’ individual or pooled individuals in a single reference.
+- Haploid.
+- Sometimes alternative alleles reported as variants.
+- Haplotigs were often completely shuffled as it is unfeasible to determine long blocks of haplotype with NGS.
+- Sometimes more than one assembly is present.
+
+---
+## The primary assembly
+
+The Primary Assembly constitutes what Genbank curators consider the most up-to-date source for the genomic sequence for this reference.
+
+When available, this is the first result being shown.
+
+Picking a random human gene, the Primary Assembly normally refers to the human genome assembly ‘GRCh38’ (Genome Reference Consortium human build n. 38), the latest release of the long list of high-quality assemblies for the human genome generated since 2001.
+
+&lt;img src="imgs/assembly1.png" width=100% /&gt;
+
+---
+## The primary assembly
+
+&lt;img src="imgs/assembly2.png" width=100% /&gt;
+
+---
+## 2. Contiguity
+
+&lt;img src="imgs/assembly3.png" width=100% /&gt;
+
+---
+## 2. Contiguity
+
+&lt;img src="imgs/assembly4.jpg" width=100% /&gt;
+
+---
+## 2. Quality (QV)
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/qv1.png" width=60% /&gt;
+
+&lt;img src="imgs/qv2.png" width=60% /&gt;
+&lt;/div&gt;
+
+---
+## 3. BUSCO scores
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/busco.png" width=80% /&gt;
+&lt;/div&gt;
+
+---
+## 4. Structural accuracy
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/hic2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 5. Kmer multiplicity
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/kmer_multiplicity1.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 5. Kmer multiplicity
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/kmer_multiplicity2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## 6. Switch error rate
+
+&lt;div style="text-align:center"&gt;
+&lt;img src="imgs/switch1.png" width=70% /&gt;
+
+&lt;img src="imgs/switch2.png" width=70% /&gt;
+&lt;/div&gt;
+
+---
+## Many tools, one pipeline
+
+&lt;img src="imgs/GEP.png" width=100% /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
