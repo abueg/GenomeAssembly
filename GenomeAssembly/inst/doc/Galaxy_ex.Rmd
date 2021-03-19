@@ -20,14 +20,20 @@ message(toMessage)
 
 In this exercise, we will practice attempt to assemble some genomes using the web interface Galaxy.
 
-```{r, eval=toMessage}
+```{r, results='asis',include=TRUE,echo=FALSE}
+
+if(params$toMessage != "false"){
+
 cat('For a detailed explanation of the exercises review the second session of the Genome Assembly course <a href="https://rockefelleruniversity.github.io/GenomeAssembly/presentations/slides/Session2.html">here</a>.')
+  
+}
 
 ```
 
 First of all you need to create a Galaxy account in the EU mirror https://usegalaxy.eu/.
 
-##1. Get the data
+## 1. Get the data
+
 Now let's get started by downloading some HiFi data:
 
 ecoli	SRR10971019
@@ -42,11 +48,13 @@ Let's pick one (or all, but I suggest to start with ecoli) and in the tools sear
 Select SRR accession and input one of the above IDs. 
 Leave the other parameters unchanged and execute.
 
-##2. Run QC
+## 2. Run QC
+
 Then we want to run some QC. In the tools search bar locate <i>FastQC</i>.
 Note that you don't have to wait for the download (or any other job) to finish to plan the next step!
 
-##3. Assemble it
+## 3. Assemble it
+
 Now let's run <i>hifiasm</i> using the hifi reads we have downloaded (or are still downloading)
 !note: if you wish to assemble the fly, the dataset is very large so we first need to downsample it.
 First,run <i>Fastq to tabular</i> with default settings on the read set.
@@ -58,7 +66,8 @@ Sequence column	2
 Quality column	3
 You can run <i>FastQC</i> again on the downsampled reads to make sure everything looks good.
 
-##4. Collect general genome metrics
+## 4. Collect general genome metrics
+
 While our assembly runs we can get some information on the genome parameters using kmers. 
 Run <i>khmer: Abundance Distribution (all-in-one)</i> using the raw reads as input. Make sure in the advanced options you set:
 kmer length = 21
@@ -72,7 +81,8 @@ Search for <i>Text reformatting</i> (aka awk), select the output of khmer as inp
 Now you can download the results using the right bar. Then get to http://qb.cshl.edu/genomescope/genomescope2.0/
 You only need to upload the file you just downloaded as input, make sure to select the appropriate ploidy and submit.
 
-##5. Let's evaluate the assembly
+## 5. Let's evaluate the assembly
+
 Use <i>GFA to FASTA</i> to convert both the primary and alternate assembly graphs to the more common fasta format.
 
 Once you have generated the fasta you can run <i>Fasta Statistics</i> on both the primary and the alternate.
@@ -81,7 +91,8 @@ We could also <i>Compute sequence length</i> on the assembly and then generate a
 Now let's locate <i>Busco</i> (v4) and run it on both the primary and alternate assembly. 
 Make sure you pick a reasonable classification for the species under consideration (e.g. Gammaproteobacteria for ecoli, Fungi for yeast, Insecta for the fly).
 
-##6. Compare!
+## 6. Compare!
+
 Now let's download the Genbank reference assembly for the same species, repeat the evaluation steps and compare the numbers.
 
 Let's also download some other genome that we are interested in, even larger ones, and run the evaluation steps on them.
