@@ -1,0 +1,5 @@
+<br>
+
+#### **Genome Assembly, Session 2**
+
+In this session we will review the practical use of Galaxy for Genome Assembly detailed in the exercise.

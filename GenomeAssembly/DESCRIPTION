@@ -13,6 +13,6 @@ Suggests: knitr,
     rmarkdown,
     testthat,
     yaml
-SystemRequirements: R, RStudio
+SystemRequirements: Galaxy, SlackGA
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1

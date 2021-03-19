@@ -1,9 +1,5 @@
 <br>
 
-#### **?? My course name?? , Session 1**
+#### **Genome Assembly, Session 1**
 
-??What am I focusing on in this section. Bullet point lists are good??
-
-* Course content
-* Building courses
-* Making it look nice
+In this session we will overview the principles of Genome Assembly.

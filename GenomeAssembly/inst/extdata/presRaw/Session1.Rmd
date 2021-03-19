@@ -2,7 +2,7 @@
 title: RU Genome Assembly, Session 1 <html><div style='float:left'></div><hr color='#EB811B'
   size=1px width=796px></html>
 author: "Rockefeller University, The Vertebrate Genome Lab"
-date: "http://rockefelleruniversity.github.io/RU_course_template/"
+date: "http://rockefelleruniversity.github.io/GenomeAssembly/"
 output: 
   xaringan::moon_reader:
     css: ["default", "metropolisCustom.css", "metropolis-fontsCustom.css"]
@@ -380,7 +380,69 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 ---
 ## 
 
+<<<<<<< HEAD
 <div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
+=======
+<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Applications</b></div>
+
+---
+## Applications
+
+<div style="text-align:center">
+<img src="../imgs/applications_long_reads.png" width=100% />
+</div>
+
+---
+## Contiguity matters
+
+<div style="text-align:center">
+<img src="../imgs/contiguity.png" width=80% />
+</div>
+
+---
+## Contiguity matters
+
+
+Differences between two humans:
+
+<img src="../imgs/human_SVs.png" width=100% />
+
+Human-chimp differences (120 Mb overall):
+
+3x10^7 substitutions → 30 Mb (25%)
+
+5x10^6 indels (<80 bp) → 22 Mb (18%)
+
+7x10^4 SVs (>80 bp) → 68 Mb (57%)
+
+---
+## Whole genome alignments
+
+<img src="../imgs/chicken_barn_swallow.png" width=100% />
+
+---
+## Whole genome alignments
+
+<div style="text-align:center">
+<img src="../imgs/chicken_zebra_finch.png" width=50% />
+</div>
+
+---
+## Supergenes in the ruff
+
+<img src="../imgs/ruff.png" width=100% />
+
+<div style="text-align:center">
+<a href="https://www.nature.com/articles/ng.3443">Küpper et al., 2015</a>
+<br /><br /><br />
+<a href="https://www.scilifelab.se/news/a-supergene-underlies-genetic-differences-in-testosteron-levels-and-sexual-behaviour-in-male-ruff/">Watch this video!</a>
+</div>
+
+---
+## 
+
+<div style="font-size:30px;background-image: url('../imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
+>>>>>>> 504c4f81a4a95e36e3ce6cfd8f604d2284baecbc
 
 ---
 ## Everything starts from an alignment
@@ -542,10 +604,14 @@ Alignment-free approaches have been used for:
 
 <img src="imgs/OLC_DBG1.png" width=100% />
 
+<a href="https://academic.oup.com/bfg/article/11/1/25/191455">Li et al. 2012</a>
+
 ---
 ## Assembling a genome today
 
 <img src="imgs/OLC_DBG2.png" width=100% />
+
+<a href="https://academic.oup.com/bfg/article/11/1/25/191455">Li et al. 2012</a>
 
 ---
 ## Canu
@@ -553,6 +619,8 @@ Alignment-free approaches have been used for:
 <div style="text-align:center">
 <img src="imgs/canu.png" width=50% />
 </div>
+
+<a href="https://genome.cshlp.org/content/early/2017/03/15/gr.215087.116">Koren et al. 2017</a>
 
 ---
 ## Galaxy
@@ -567,6 +635,7 @@ Alignment-free approaches have been used for:
 </div>
 
 ---
+<<<<<<< HEAD
 ## 
 
 <div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Evaluation</b></div>
@@ -727,3 +796,4 @@ Human-chimp differences (120 Mb overall):
 <br /><br /><br />
 <a href="https://www.scilifelab.se/news/a-supergene-underlies-genetic-differences-in-testosteron-levels-and-sexual-behaviour-in-male-ruff/">Watch this video!</a>
 </div>
+

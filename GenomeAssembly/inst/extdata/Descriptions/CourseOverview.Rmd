@@ -13,11 +13,9 @@
 <br>
 
 ### Overview
-?? This Section is used to build the course website ?? 
+This is a 6-hour course on Genome Sequencing and Assembly held at the Rockefeller University in March 2021.
 
-?? What is this course about??
-
-?? Break down of course structure. You can look here for guidance: https://rockefelleruniversity.github.io/GenomeAssembly/?? 
+The course consists of 2 sessions. These sessions will walk you through the core principles of Genome Assembly. Practical exercises will be performed using the web interface Galaxy.
 
 Course material and exercises are available to view as rendered HTML at https://rockefelleruniversity.github.io/GenomeAssembly/.
 All material is available to download under GPL v2 license.
