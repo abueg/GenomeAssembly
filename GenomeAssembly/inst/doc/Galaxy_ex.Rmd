@@ -76,7 +76,10 @@ tablesize = 1000000000
 In Galaxy we can manipulate files relatively easily, let's use awk to convert the output of khmer to a format suitable for Genomescope2.
 Search for <i>Text reformatting</i> (aka awk), select the output of khmer as input (the csv file), and type this as awk program:
 
+
+```
 {FS = ","; if($2!=0 && NR>1) printf $1" "$2"\n"}
+```
 
 Now you can download the results using the right bar. Then get to http://qb.cshl.edu/genomescope/genomescope2.0/
 You only need to upload the file you just downloaded as input, make sure to select the appropriate ploidy and submit.
