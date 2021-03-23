@@ -205,7 +205,7 @@ The process of determining the sequence of an organism without existing referenc
 ---
 ## Repeats are a problem
 
-<img src="imgs/Genbank2.png" width=800px />
+<img src="imgs/repeats.png" width=800px />
 
 ---
 ## Third generation sequencing
@@ -371,7 +371,7 @@ Long-range interactions. Used also to reconstruct the 3D structure of DNA.
 ---
 ## 
 
-<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Principles and practicalities</b></div>
+<div style="font-size:30px;background-image: url('imgs/bg.png'); background-repeat:no-repeat; background-size: 796px; text-align:center; height=600px; padding:200px 0 400px 0" width=100%><b>Genome assembly:<br/>Applications</b></div>
 
 ---
 ## Applications
