@@ -373,7 +373,7 @@ pre code {
 <h2>4. Collect general genome metrics</h2>
 <p>While our assembly runs we can get some information on the genome parameters using kmers. Run <i>khmer: Abundance Distribution (all-in-one)</i> using the raw reads as input. Make sure in the advanced options you set: kmer length = 21 tablesize = 1000000000</p>
 <p>In Galaxy we can manipulate files relatively easily, let’s use awk to convert the output of khmer to a format suitable for Genomescope2. Search for <i>Text reformatting</i> (aka awk), select the output of khmer as input (the csv file), and type this as awk program:</p>
-<p>{FS = “,”; if($2!=0 &amp;&amp; NR&gt;1) printf $1&quot; “$2”&quot;}</p>
+<pre><code>{FS = &quot;,&quot;; if($2!=0 &amp;&amp; NR&gt;1) printf $1&quot; &quot;$2&quot;\n&quot;}</code></pre>
 <p>Now you can download the results using the right bar. Then get to <a href="http://qb.cshl.edu/genomescope/genomescope2.0/" class="uri">http://qb.cshl.edu/genomescope/genomescope2.0/</a> You only need to upload the file you just downloaded as input, make sure to select the appropriate ploidy and submit.</p>
 </div>
 <div id="lets-evaluate-the-assembly" class="section level2">
