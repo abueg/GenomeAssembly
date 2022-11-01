@@ -134,6 +134,22 @@ Picking a random human gene, the Primary Assembly normally refers to the human g
 </div>
 
 ---
+## VGL Galaxy instance
+<div style="text-align:center">
+<img src="imgs/VGL_instance_slurm.png" width=70% />
+
+
+</div>
+
+---
+## TITLE
+<div style="text-align:center">
+
+<img src="imgs/switch1.png" width=70% />
+
+
+</div>
+---
 ## Many tools, one pipeline
 
 <img src="imgs/GEP.png" width=100% />
